@@ -70,7 +70,7 @@ function Projects() {
             <li>
               <strong>Skin Lesion Image Augmentation using DCGAN</strong><br />
               <em>IRJET, Volume 8, Issue 7, July 2021</em><br />
-              <a href="https://www.irjet.net/archives/V8/i7/IRJET-V8I7142.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.irjet.net/archives/V8/i7/IRJET-V8I7142.pdf" >
                 [Read Paper]
               </a>
             </li>
@@ -79,7 +79,7 @@ function Projects() {
               <strong>DATA AUGMENTATION ON SKIN LESION IMAGE DATA USING GAN FOR
               INCREASED CNN PERFORMANCE</strong><br />
               <em>IRJET, Volume 8, Issue 5, May 2021</em><br />
-              <a href="https://www.irjet.net/archives/V8/i5/IRJET-V8I5328.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.irjet.net/archives/V8/i5/IRJET-V8I5328.pdf" >
                 [Read Paper]
               </a>
             </li>
