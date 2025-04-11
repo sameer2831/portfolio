@@ -26,8 +26,8 @@ function Home2() {
                 <br />
                 With a strong foundation in  &nbsp;
                 <i>
-                  <b className="purple">software engineering, Agile methodologies, </b> and  <b className="purple">
-                    system optimization,
+                  <b className="purple">Software engineering, Agile methodologies, </b> and  <b className="purple">
+                    System optimization,
                   </b>
                 </i>
                 <br />
@@ -69,7 +69,7 @@ function Home2() {
                     <FaLinkedinIn />
                   </a>
                 </li>
-                <li className="social-icons">
+                {/* <li className="social-icons">
                   <a
                     href="https://www.instagram.com/_sameer_2831/"
                     target="_blank"
@@ -78,7 +78,7 @@ function Home2() {
                   >
                     <AiFillInstagram />
                   </a>
-                </li>
+                </li> */}
               </ul>
             </Col>
           </Row>

@@ -28,7 +28,7 @@ export default function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> SAMEER BALKAWADE</strong>
               </h1>
 
