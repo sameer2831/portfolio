@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sameer Ashok Balkawade </span>
             
             <br />
-            a passionate Full-Stack Developer and Computer Science graduate student at Syracuse University.
+            A passionate Full-Stack Developer and Computer Science graduate student at Syracuse University.
             <br />
             With hands-on experience in both enterprise and startup environments, I specialize in building scalable web and mobile applications using modern technologies like React, Node.js, .NET, and cloud platforms like AWS and Azure
             <br />
