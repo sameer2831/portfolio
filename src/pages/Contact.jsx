@@ -85,7 +85,7 @@ function Contact() {
           </Col>
           <Col md="auto" className="contact-icons">
             <a
-              href="https://github.com/sameerb2831"
+              href="https://github.com/sameer2831"
               target="_blank"
               rel="noopener noreferrer"
             >
