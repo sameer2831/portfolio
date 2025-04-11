@@ -28,7 +28,20 @@ This is my personal developer portfolio built using **React.js**, **React-Bootst
 
 ## 📂 Project Structure
 
-portfolio/ ├── public/ ├── src/ │ ├── assets/ # Images, icons │ ├── components/ # Reusable components (Navbar, Footer, Techstack, etc.) │ ├── pages/ # Sections like Home, Projects, About, Contact │ ├── App.jsx # Root component │ ├── index.js # Entry point │ └── tailwind.config.js (if using Tailwind) ├── package.json └── README.md
+portfolio/
+├── public/
+├── src/
+│   ├── assets/          # images, icons
+│   ├── components/      # reusable components (Navbar, Footer, etc.)
+│   ├── pages/           # Home, About, Projects, Contact
+│   ├── context/         # context providers
+│   ├── hooks/           # custom hooks (if needed)
+│   ├── App.jsx
+│   ├── index.js
+│   └── tailwind.config.js
+├── package.json
+└── README.md
+
 
 ---
 
