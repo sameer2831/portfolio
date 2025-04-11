@@ -34,7 +34,7 @@ export default function Home() {
                   "Software Engineer",
                   "Full Stack Developer",
                   "Backend Developer",
-                  "Frontend Dveloper",
+                  "Frontend Developer",
                   "Mobile Application Developer",
                   "Cloud DevOps Enthusiast",
                   "AI & Data Science Explorer",
