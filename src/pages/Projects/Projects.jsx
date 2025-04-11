@@ -6,6 +6,8 @@ import shuttle from "../../assets/shuttle.jpeg";
 import reddit from "../../assets/reddit.jpg";
 import dcgan from "../../assets/dcgan.png";
 import fest from "../../assets/fest.jpeg";
+import portfolio from "../../assets/portfolio.jpeg"
+import PublicationCard from "./PublicationCard";
 
 function Projects() {
   return (
@@ -60,30 +62,41 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Personal Developer Portfolio"
+              description="My personal portfolio built with React, Tailwind CSS, and GitHub Pages. Includes responsive design, routing, project showcase, and theme animations."
+              ghLink="https://github.com/sameer2831/portfolio"
+              demoLink="https://sameer2831.github.io/portfolio"
+            />
+          </Col>
+
         </Row>
         <Container fluid className="publication-section">
         <Container>
           <h1 className="project-heading">
             Research <strong className="purple">Publications</strong>
           </h1>
-          <ul style={{ color: "white", fontSize: "1.1em" }}>
-            <li>
-              <strong>Skin Lesion Image Augmentation using DCGAN</strong><br />
-              <em>IRJET, Volume 8, Issue 7, July 2021</em><br />
-              <a href="https://www.irjet.net/archives/V8/i7/IRJET-V8I7142.pdf" >
-                [Read Paper]
-              </a>
-            </li>
-            <br />
-            <li>
-              <strong>DATA AUGMENTATION ON SKIN LESION IMAGE DATA USING GAN FOR
-              INCREASED CNN PERFORMANCE</strong><br />
-              <em>IRJET, Volume 8, Issue 5, May 2021</em><br />
-              <a href="https://www.irjet.net/archives/V8/i5/IRJET-V8I5328.pdf" >
-                [Read Paper]
-              </a>
-            </li>
-          </ul>
+          <Row style={{ justifyContent: "center", paddingTop: "10px" }}>
+            <Col md={6} className="project-card">
+              <PublicationCard
+                title="Skin Lesion Image Augmentation using DCGAN"
+                journal="IRJET, Volume 8, Issue 7, July 2021"
+                link="https://www.irjet.net/archives/V8/i7/IRJET-V8I7142.pdf"
+              />
+            </Col>
+
+            <Col md={6} className="project-card">
+              <PublicationCard
+                title="Data Augmentation on Skin Lesion Image Data Using GAN for Increased CNN Performance"
+                journal="IRJET, Volume 8, Issue 5, May 2021"
+                link="https://www.irjet.net/archives/V8/i5/IRJET-V8I5328.pdf"
+              />
+            </Col>
+          </Row>
+
         </Container>
       </Container>
 
