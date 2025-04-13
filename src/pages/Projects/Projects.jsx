@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Android App for College Fest"
               description="Built an Android app for online fest registration using Firebase and REST APIs. Integrated Google Maps and animation libraries, boosting engagement by 20%."
-              ghLink="#"
+              ghLink="https://github.com/sameer2831/Ashwamedh"
             />
           </Col>
 
