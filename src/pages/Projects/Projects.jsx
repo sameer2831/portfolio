@@ -8,6 +8,8 @@ import dcgan from "../../assets/dcgan.png";
 import fest from "../../assets/fest.jpeg";
 import portfolio from "../../assets/portfolio.jpeg"
 import PublicationCard from "./PublicationCard";
+import digitsNN from "../../assets/digitsNN.png"
+import digitsCNN from "../../assets/digitsCNN.png"
 
 function Projects() {
   return (
@@ -59,6 +61,26 @@ function Projects() {
               title="Android App for College Fest"
               description="Built an Android app for online fest registration using Firebase and REST APIs. Integrated Google Maps and animation libraries, boosting engagement by 20%."
               ghLink="https://github.com/sameer2831/Ashwamedh"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={digitsNN}
+              isBlog={false}
+              title="Handwritten Digit Recognition – Neural Network"
+              description="Built a digit recognition model using a basic neural network trained on Kaggle's handwritten digit dataset. Achieved over 90% accuracy, showcasing foundational deep learning concepts."
+              ghLink="https://github.com/sameer2831/Handwritten_digit_recognition_NeuralNetwork"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={digitsCNN}
+              isBlog={false}
+              title="Handwritten Digit Recognition – CNN"
+              description="Implemented a CNN-based classifier on the same dataset, improving accuracy to 98.6%. Leveraged Conv2D, MaxPooling, and Dropout layers for better generalization and performance."
+              ghLink="https://github.com/sameer2831/CNN_digit_recogonizer"
             />
           </Col>
 
