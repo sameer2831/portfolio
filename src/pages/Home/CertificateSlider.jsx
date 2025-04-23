@@ -6,19 +6,19 @@ import { FaFilePdf } from "react-icons/fa";
 const certificates = [
   {
     title: "Python Data Structures",
-    link: "https://sameer2831.github.io/portfolio-site/certificates/Python-DS-certificate.pdf",
+    link: "https://sameer2831.github.io/portfolio/Certifications/Python-DS-certificate.pdf",
   },
   {
     title: "Image Classification with CNNs",
-    link: "https://sameer2831.github.io/portfolio-site/certificates/CNN-image-Classification-certificate.pdf",
+    link: "https://sameer2831.github.io/portfolio/Certifications/CNN-image-Classification-certificate.pdf",
   },
   {
     title: "Linear Regression with NumPy and Python",
-    link: "https://sameer2831.github.io/portfolio-site/certificates/Linear-Regression-with-NumPy-and-Python.pdf",
+    link: "https://sameer2831.github.io/portfolio/Certifications/Linear-Regression-with-NumPy-and-Python.pdf",
   },
   {
     title: "Python to Access Web Data",
-    link: "https://sameer2831.github.io/portfolio-site/certificates/Python-to-Access-Web-Data.pdf",
+    link: "https://sameer2831.github.io/portfolio/Certifications/Python-to-Access-Web-Data.pdf",
   },
 ];
 
