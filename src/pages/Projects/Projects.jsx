@@ -10,6 +10,8 @@ import portfolio from "../../assets/portfolio.jpeg"
 import PublicationCard from "./PublicationCard";
 import digitsNN from "../../assets/digitsNN.png"
 import digitsCNN from "../../assets/digitsCNN.png"
+import airbnb from "../../assets/airbnb.jpg"
+import uber from "../../assets/uber.jpg"
 
 function Projects() {
   return (
@@ -94,6 +96,30 @@ function Projects() {
               demoLink="https://sameer2831.github.io/portfolio"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={airbnb}  
+              isBlog={false}
+              title="NY AirBnB Data Analysis"
+              description="Exploratory data analysis and visualization of NYC AirBnB listings using Python, Pandas, and Seaborn. Uncovered insights on pricing trends, location patterns, and host behavior."
+              ghLink="https://github.com/sameer2831/DATA-ANALYSIS/tree/main/NY%20AirBnB%20Analysis"  
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={uber}  
+              isBlog={false}
+              title="Uber Ride Data Analysis"
+              description="Performed data wrangling and time-series analysis on Uber pickup data using Python, Pandas, and Matplotlib. Visualized ride distributions by hour, day, and location to uncover peak demand periods."
+              ghLink="https://github.com/sameer2831/DATA-ANALYSIS/tree/main/Uber%20Rides%20Data%20Analysis"  
+              
+            />
+          </Col>
+
+
 
         </Row>
         <Container fluid className="publication-section">
