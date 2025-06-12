@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Card } from "react-bootstrap";
 import { 
-  DiJavascript1, DiReact, DiNodejs, DiMongodb, DiPython, DiGit, DiJava,
+  DiJavascript1, DiReact, DiNodejs, DiMongodb, DiPython, DiJava,
   DiVisualstudio, DiHtml5, DiCss3, DiMysql, DiPostgresql
 } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
@@ -9,7 +9,7 @@ import { VscAzureDevops } from "react-icons/vsc";
 import {
   SiTypescript, SiCplusplus, SiJson, SiFirebase, SiNextdotjs,
   SiDotnet, SiAngular, SiOracle, SiDocker, SiJenkins, SiGithub, SiGitlab,
-  SiPostman, SiAmazonaws, SiSqlite, SiYaml, SiElastic, SiRabbitmq
+  SiPostman, SiSqlite, SiYaml, SiElastic, SiRabbitmq
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
