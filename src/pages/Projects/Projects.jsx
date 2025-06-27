@@ -14,11 +14,19 @@ import airbnb from "../../assets/airbnb.jpg"
 import uber from "../../assets/uber.jpg"
 import wealthmitra from "../../assets/wealthmitra.png"
 import tripbin from "../../assets/tripbin.png"
-
+import basketballSim from "../../assets/prime_logo.png"
 function Projects() {
   const [filter, setFilter] = useState("All");
 
   const allProjects = [
+    {
+      imgPath: basketballSim,
+      title: "Basketball PRIME – NBA Game Simulator",
+      description: "Built a full-stack NBA match simulator using React and Node.js, featuring 5v5 lineup battles powered by real stats. Scraped player data (PER, USG%, TS%, clutch stats) from Basketball Reference using Python and BeautifulSoup. Incorporated momentum, fatigue, and game flow logic to simulate realistic outcomes with animated UI and demo video.",
+      ghLink: "https://github.com/sameer2831/Basketball-PRIME-Game-Simulator",
+      demoLink:"https://sameer2831.github.io/Basketball-PRIME-Game-Simulator/",
+      category: ["Full Stack","Web Development"],
+    },
     {imgPath:wealthmitra,
       title:"WealthMitra – Financial Management System",
       description:"Built a full-stack(.Net React) financial management platform to track and analyze personal income and expenses. Developed REST APIs with Node.js, implemented user-specific dashboards in React.js, and integrated Microsoft SQL Server for secure data storage. Enabled insightful visualizations and improved financial planning for users.",
@@ -139,6 +147,7 @@ function Projects() {
                 title={project.title}
                 description={project.description}
                 ghLink={project.ghLink}
+                demoLink={project.demoLink ? project.demoLink : undefined}
               />
             </Col>
           ))}
