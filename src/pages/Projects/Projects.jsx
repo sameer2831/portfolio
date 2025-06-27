@@ -25,7 +25,7 @@ function Projects() {
       description: "Built a full-stack NBA match simulator using React and Node.js, featuring 5v5 lineup battles powered by real stats. Scraped player data (PER, USG%, TS%, clutch stats) from Basketball Reference using Python and BeautifulSoup. Incorporated momentum, fatigue, and game flow logic to simulate realistic outcomes with animated UI and demo video.",
       ghLink: "https://github.com/sameer2831/Basketball-PRIME-Game-Simulator",
       demoLink:"https://sameer2831.github.io/Basketball-PRIME-Game-Simulator/",
-      category: ["Full Stack","Web Development"],
+      category: "Web Development",
     },
     {imgPath:wealthmitra,
       title:"WealthMitra – Financial Management System",
